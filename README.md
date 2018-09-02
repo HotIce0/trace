@@ -1,6 +1,6 @@
 # trace by HotIce0
 ## Usage : `tarce <program> <function>`
-## Linux 64bit and the program must be ELF executable type. (add gcc parrament -static => `gcc -static -o test test.c`)
+## Require : Linux 64bit and the program must be ELF executable type. (add gcc parrament -static => `gcc -static -o test test.c`)
 ## Function : 
 1. read the executable file.
 2. stop at <function> postion and print value of user regs.
